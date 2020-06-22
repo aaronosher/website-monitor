@@ -1,0 +1,26 @@
+{
+  "name": "website-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronosher/website-monitor.git"
+  },
+  "author": "Aaron Osher <git@aaronosher.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronosher/website-monitor/issues"
+  },
+  "homepage": "https://github.com/aaronosher/website-monitor#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "got": "^11.3.0",
+    "hash.js": "^1.1.7",
+    "nslookup": "^1.1.1"
+  }
+}
